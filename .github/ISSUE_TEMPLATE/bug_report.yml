@@ -1,0 +1,30 @@
+name: Bug report
+description: Something in Shadow Gym doesn't work as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Open ...\n2. Tap ...\n3. See error"
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: "Settings → bottom of the screen, e.g. 0.1.0"
+  - type: input
+    id: device
+    attributes:
+      label: Device & Android version
+      placeholder: "Pixel 8, Android 15"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or anything else
